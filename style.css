@@ -1,0 +1,37 @@
+*{
+    transition: 1s;
+}
+body{
+    text-align: center;
+}
+.object{
+    width: 50px;
+    height: 50px;
+    margin: 1px;
+    background-color: red;
+    /* transition: 1s; */
+}
+.container{
+    border: 1px solid;
+    display: flex;
+    transition: 1s;
+    align-items: flex-start;
+    height: 100px;
+    width: min(600px,90%);
+    margin: auto;
+    margin-top: 3vh;
+}
+button{
+    background: none;
+    border: 1ps solid;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+button:focus{
+    transform: scale(1.5);
+    background-color: greenyellow;
+    color: black;
+}
